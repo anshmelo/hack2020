@@ -22,3 +22,12 @@ else:
        n1 = n2
        n2 = nth
        count += 1
+
+     #added reversal ability
+   
+   def my_function(x):
+  return x[::-1]
+
+mytxt = my_function("I wonder how this text looks like backwards")
+
+print(mytxt)
